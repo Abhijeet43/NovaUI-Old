@@ -28,14 +28,17 @@
 
 /* HERO */
 .hero {
-  margin-top: 13rem;
   color: var(--font-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-content {
-  max-width: 80%;
+  max-width: 60%;
   width: 55%;
-  margin: auto;
   text-align: center;
 }
 
