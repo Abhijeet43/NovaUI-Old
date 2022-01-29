@@ -1,0 +1,40 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 0.1em solid var(--nav-bar-border);
+}
+
+.nav-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  font-weight: 900;
+}
+
+.nav-subtitle {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: var(--secondary-font-color);
+  font-weight: 500;
+}
+
+.nav-items {
+  margin-left: auto;
+  display: flex;
+}
+
+.nav-item {
+  padding: 0.8rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: var(--secondary-font-color);
+  transition: color 100ms ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}

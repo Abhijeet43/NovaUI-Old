@@ -1,0 +1,74 @@
+/* BUTTON */
+.btn {
+  color: rgba(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.8em;
+  margin: 0.8em;
+  border-radius: 0.25em;
+  filter: brightness(100%);
+  transform: scale(1);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  filter: brightness(110%);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+/* HERO */
+.hero {
+  margin-top: 13rem;
+  color: var(--font-color);
+}
+
+.hero-content {
+  max-width: 80%;
+  width: 55%;
+  margin: auto;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+  font-weight: 900;
+  padding: 0.3em;
+  line-height: 1.3em;
+}
+
+.hero-desc {
+  font-size: 2.5rem;
+  padding: 0.6em;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.hero-btns {
+  padding: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 767px) {
+  html {
+    font-size: 57%;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+}
