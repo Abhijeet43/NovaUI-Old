@@ -61,14 +61,26 @@
 }
 
 /* MEDIA QUERIES */
+@media (min-width: 1200px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 980px) {
+  html {
+    font-size: 58%;
+  }
+}
+
 @media (max-width: 767px) {
   html {
-    font-size: 57%;
+    font-size: 50%;
   }
 }
 
 @media (max-width: 480px) {
   html {
-    font-size: 50%;
+    font-size: 40%;
   }
 }
