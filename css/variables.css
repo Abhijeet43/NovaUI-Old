@@ -1,13 +1,14 @@
 :root {
-    --default-font:"Montserrat", sans-serif;
-    --background-color: rgb(216 191 216 / 40%);
-    --primary-color: #7245b6;
-    --secondary-color: #f3f4f6
-    --success-color: #109d48;
-    --danger-color: #d63030;
-    --warning-color: #e7b51c;
-    --font-color: #333;
-    --secondary-font-color: #917575;
-    --nav-bar-border:rgba(36, 31, 31, 0.103);
-    --scroll-hover: #633f99;
-  }
+  --default-font: "Montserrat", sans-serif;
+  --background-color: rgb(216 191 216 / 40%);
+  --primary-color: #7245b6;
+  --secondary-color: #f3f4f6;
+  --info-color: #296780;
+  --success-color: #109d48;
+  --danger-color: #d63030;
+  --warning-color: #e7b51c;
+  --font-color: #333;
+  --secondary-font-color: #917575;
+  --nav-bar-border: rgba(36, 31, 31, 0.103);
+  --scroll-hover: #633f99;
+}
