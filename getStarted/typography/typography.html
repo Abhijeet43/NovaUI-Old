@@ -5,7 +5,7 @@
     <meta name="author" content="Abhijeet Sinha">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Colors</title>
+    <title>Typography</title>
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="../../css/variables.css">
     <link rel="stylesheet" href="../../css/navbar.css">
     <link rel="stylesheet" href="../../css/sidebar.css">
-    <link rel="stylesheet" href="./colors.css">
     <link rel="stylesheet" href="../../css/component.css">
     <link rel="stylesheet" href="../../css/scrollbar.css">
   </head>
@@ -53,8 +52,8 @@
                 </div>
                 <ul class="sidebar-items">
                     <li class="sidebar-item"><a href="../introduction/introduction.html">Introduction</a></li>
-                    <li class="sidebar-item active"><a href="./colors.html">Colors</a></li>
-                    <li class="sidebar-item"><a href="../typography/typography.html">Typography</a></li>
+                    <li class="sidebar-item"><a href="../colors/colors.html">Colors</a></li>
+                    <li class="sidebar-item active"><a href="./typography.html">Typography</a></li>
                     <li class="sidebar-item"><a href="../conclusion/conclusion.html">Conclusion</a></li>
                 </ul>
             </div>
@@ -82,59 +81,67 @@
         <section class="doc-content">
             <div class="content-box">
                 <div class="content-title">
-                    <h1>NovaUI Color Scheme</h1>
+                    <h1>Typography</h1>
                 </div>
                 <div class="content-text">
-                    <p>NovaUI comes with pre-defined color  pallete, which is consistent in the overall design. The colors used are selected on a generic basis, which can be accessed by pre-defined classes.</p>
+                    <p>Documentation and examples for NovaUI typography, including global settings, headings, body text, lists, and more.</p>
                 </div>
             </div>
+            
             <div class="divider"></div>
+            
             <div class="content-box">
                 <div class="content-head">
-                    <h2>Default Palette</h2>
+                    <h2>Headings</h2>
                 </div>
                 <div class="content-text">
-                    <p>Below is the color palette, used by Sparrow, listed with the hex-codes.</p>
-                    
-                    <div class="palette">
-                        <div class="primary">
-                            Primary
-                            <span>#7245b6</span>
-                        </div>
-                        <div class="secondary">
-                            Secondary
-                            <span>#f3f4f6</span>
-                        </div>
-                        <div class="info">
-                            Info
-                            <span>#296780</span>
-                        </div>
-                        <div class="warning">
-                            Warning
-                            <span>#e7b51c</span>
-                        </div>
-                        <div class="success">
-                            Success
-                            <span>#109d48</span>
-                
-                        </div>
-                        <div class="danger">
-                            Danger
-                            <span>#d63030</span>       
-                        </div>
+                    <p>All HTML headings, &lt;h1&gt; through &lt;h6&gt;, are available.</p>
+                    <div class="heading-box">
+                        <h1>h1. NarrowUI Heading</h1>
+                        <div class="divider"></div>
+                        <h2>h2. NarrowUI Heading</h2>
+                        <div class="divider"></div>
+                        <h3>h3. NarrowUI Heading</h3>
+                        <div class="divider"></div>
+                        <h4>h4. NarrowUI Heading</h4>
+                        <div class="divider"></div>
+                        <h5>h5. NarrowUI Heading</h5>
+                        <div class="divider"></div>
+                        <h6>h6. NarrowUI Heading</h6>
                     </div>
                 </div>
+                <iframe scrolling="no" class="heading-scroll"
+  src="https://carbon.now.sh/embed?bg=rgba%28114%2C69%2C182%2C1%29&t=material&wt=none&l=text%2Fapache&width=680&ds=false&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253Eh1.%2520NarrowUI%2520Heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ch2%253Eh2.%2520NarrowUI%2520Heading%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ch3%253Eh3.%2520NarrowUI%2520Heading%253C%252Fh3%253E%250A%250A%253Ch4%253Eh4.%2520NarrowUI%2520Heading%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Ch5%253Eh5.%2520NarrowUI%2520Heading%253C%252Fh5%253E%250A%250A%253Ch6%253Eh6.%2520NarrowUI%2520Heading%253C%252Fh6%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
             </div>
+
+            <div class="divider"></div>
+
+            <div class="content-box">
+        <div class="content-head">
+            <h2>Font-Family</h2>
+        </div>
+        <div class="content-text">
+            <p>NovaUI uses <a href="https://fonts.google.com/specimen/Montserrat?preview.text_type=custom" target="_blank">Montserrat</a>, as its default font, which is a free font available at Google Fonts.</p>
+        </div>
+
+        <iframe scrolling="no" class="font-scroll"
+    src="https://carbon.now.sh/embed?bg=rgba%28114%2C69%2C182%2C1%29&t=material&wt=none&l=text%2Fapache&width=680&ds=false&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520href%253D%2522https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253Ffamily%253DMontserrat%253Awght%2540300%253B400%253B500%253B700%253B900%2526display%253Dswap%2522%2520rel%253D%2522stylesheet%2522%253E"
+    sandbox="allow-scripts allow-same-origin">
+    </iframe>
+            </div>
+    
             <div class="divider"></div>
             <!-- SECTION-FOOTER -->
             <footer class="section-footer">
                 <div class="prev-comp">
-                    <a href="../introduction/introduction.html" class="footer-link">Introduction
+                    <a href="../colors/colors.html" class="footer-link">Colors
                         <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
                     </a>
                 </div>
                 <div class="next-comp">
-                    <a href="../typography/typography.html" class="footer-link">Typography
+                    <a href="../conclusion/conclusion.html" class="footer-link">Conclusion
                         <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
                     </a>
                 </div>

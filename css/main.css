@@ -23,7 +23,7 @@
 
 .btn-secondary {
   background-color: var(--secondary-color);
-  color: var(--secondary-color);
+  color: var(--font-color);
 }
 
 /* HERO */
@@ -85,5 +85,9 @@
 @media (max-width: 480px) {
   html {
     font-size: 40%;
+  }
+
+  .btn {
+    font-size: 1.3rem;
   }
 }
