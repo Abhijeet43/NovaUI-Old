@@ -86,4 +86,8 @@
   html {
     font-size: 40%;
   }
+
+  .btn {
+    font-size: 1.3rem;
+  }
 }
