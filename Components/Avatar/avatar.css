@@ -1,0 +1,29 @@
+.avatar {
+  object-fit: cover;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.avatar-lg {
+  width: 5rem;
+  height: 5rem;
+}
+
+.avatar-md {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.avatar-sm {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.avatar-square {
+  border-radius: 0.25rem;
+}
