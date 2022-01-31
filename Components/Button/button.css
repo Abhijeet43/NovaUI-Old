@@ -1,0 +1,136 @@
+.btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  max-width: fit-content;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  margin: 1em;
+  border-radius: 0.25em;
+  filter: brightness(100%);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* SOLID BUTTONS */
+.btn:hover {
+  filter: brightness(110%);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+}
+
+.btn-warning {
+  background: var(--warning-color);
+}
+
+.btn-info {
+  background-color: var(--info-color);
+}
+
+.btn-success {
+  background-color: var(--success-color);
+}
+
+.btn-danger {
+  background-color: var(--danger-color);
+}
+
+/* OUTLINE BUTTONS */
+.btn-outline-primary {
+  color: var(--primary-color);
+  border: 0.1em solid var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.btn-outline-secondary {
+  color: var(--font-color);
+  border: 0.1em solid var(--secondary-color);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+}
+
+.btn-outline-success {
+  color: var(--success-color);
+  border: 0.1em solid var(--success-color);
+}
+
+.btn-outline-success:hover {
+  background-color: var(--success-color);
+  color: var(--text-color);
+}
+
+.btn-outline-warning {
+  border: 0.1em solid var(--warning-color);
+  color: var(--warning-color);
+}
+
+.btn-outline-warning:hover {
+  background-color: var(--warning-color);
+  color: var(--text-color);
+}
+
+.btn-outline-info {
+  border: 0.1em solid var(--info-color);
+  color: var(--info-color);
+}
+
+.btn-outline-info:hover {
+  background-color: var(--info-color);
+  color: var(--text-color);
+}
+
+.btn-outline-danger {
+  border: 0.1em solid var(--danger-color);
+  color: var(--danger-color);
+}
+.btn-outline-danger:hover {
+  background-color: var(--danger-color);
+  color: var(--text-color);
+}
+
+/* ICON BUTTONS */
+.btn-icon {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-icon i {
+  margin-right: 0.8em;
+}
+
+/* FLOATING ACTION BUTTON */
+.btn-fab {
+  border-radius: 50%;
+  max-width: 5.5rem;
+  font-size: 1.5rem;
+  width: 3em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LINK BUTTON */
+
+.btn-link {
+  background-color: var(--btn-link);
+}

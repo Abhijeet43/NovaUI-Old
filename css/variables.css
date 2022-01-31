@@ -1,6 +1,7 @@
 :root {
   --default-font: "Montserrat", sans-serif;
   --background-color: rgb(216 191 216 / 40%);
+  --text-color: #fff;
   --primary-color: #7245b6;
   --secondary-color: #f3f4f6;
   --info-color: #296780;
@@ -11,4 +12,5 @@
   --secondary-font-color: #917575;
   --nav-bar-border: rgba(36, 31, 31, 0.103);
   --scroll-hover: #633f99;
+  --btn-link: #3b2957;
 }
