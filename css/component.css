@@ -34,6 +34,10 @@
   font-size: 2rem;
 }
 
+.highlight {
+  color: var(--primary-color);
+}
+
 /* HEADING-BOX */
 .heading-box {
   margin: 2.5rem 0;
