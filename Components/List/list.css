@@ -1,0 +1,94 @@
+.list {
+  margin: 1rem 1.5rem;
+}
+
+li {
+  font-size: 1.5rem;
+  padding: 0.3em;
+}
+
+/* UNORDERED LIST */
+.list-disc-item {
+  list-style: disc;
+}
+
+.list-circle-item {
+  list-style: circle;
+}
+
+.list-square-item {
+  list-style: square;
+}
+
+/* ORDERED LIST */
+.list-number-item {
+  list-style: number;
+}
+
+.list-lower-roman-item {
+  list-style: lower-roman;
+}
+
+.list-lower-alpha-item {
+  list-style: lower-alpha;
+}
+
+.list-upper-roman-item {
+  list-style: upper-roman;
+}
+
+.list-upper-alpha-item {
+  list-style: upper-alpha;
+}
+
+/* NOTIFICATION LIST */
+
+.notification-list-item {
+  padding: 1rem;
+  border: 0.2rem solid var(--primary-color);
+  margin: 1rem;
+  border-radius: 0.25rem;
+}
+
+.notification-icon {
+  margin-right: 1rem;
+}
+
+/* SELECTED GROUP */
+
+.filter-list {
+  width: 30rem;
+  margin: 1.5rem;
+}
+
+.list-title {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.filter-title {
+  font-size: 1.2rem;
+  padding: 0 1rem;
+  font-weight: 500;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.checkbox label {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  cursor: pointer;
+  justify-self: center;
+  margin-right: 1rem;
+}
