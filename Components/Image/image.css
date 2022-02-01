@@ -1,0 +1,26 @@
+.square-img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 16/9;
+  border-radius: 0.25rem;
+}
+
+.round-img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 16/9;
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
