@@ -1,0 +1,61 @@
+.input-group {
+  color: #333;
+  font-size: 1.5rem;
+  line-height: 20px;
+  margin: 0 20px 10px;
+  width: 80%;
+}
+
+.input-label {
+  font-weight: 500;
+}
+
+.input {
+  width: 100%;
+  padding: 0.8rem;
+  outline: none;
+  border: 0.1rem solid black;
+  border-radius: 0.25rem;
+}
+
+.input:focus {
+  border: 0.1rem solid var(--primary-color);
+}
+
+/* ERROR CLASS */
+
+.input-group.err .input-label {
+  color: var(--danger-color);
+}
+
+.input-group.err .input {
+  border: 0.1rem solid var(--danger-color);
+}
+
+.err-message {
+  color: var(--danger-color);
+  font-size: 1.2rem;
+}
+
+.err-message i {
+  margin-right: 0.3rem;
+}
+
+/* SUCCESS CLASS */
+
+.input-group.success .input-label {
+  color: var(--success-color);
+}
+
+.input-group.success .input {
+  border: 0.1rem solid var(--success-color);
+}
+
+.success-message {
+  color: var(--success-color);
+  font-size: 1.2rem;
+}
+
+.success-message i {
+  margin-right: 0.3rem;
+}
