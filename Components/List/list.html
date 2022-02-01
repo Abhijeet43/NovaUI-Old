@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Abhijeet Sinha">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- FONT-AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CUSTOM-CSS -->
+    <link rel="stylesheet" href="../../css/components.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="../../index.html" class="nav-title">NovaUI <span class="nav-subtitle">v1.0</span></a>
+      </div>
+      <ul class="nav-items">
+        <li class="nav-item">
+          <a href="https://github.com/Abhijeet43" target="_blank" class="nav-link"><i class="fab fa-github"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="https://linkedin.com/in/aasinha" target="_blank" class="nav-link"><i class="fab fa-linkedin"></i><a></li>
+      </ul>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+    <!-- MAIN-CONTENT -->
+    <main class="main-content">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="sidebar-section-title">
+                    Getting Started
+                </div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-item"><a href="../../getStarted/introduction/introduction.html">Introduction</a></li>
+                    <li class="sidebar-item"><a href="../../getStarted/colors/colors.html">Colors</a></li>
+                    <li class="sidebar-item"><a href="../../getStarted/typography/typography.html">Typography</a></li>
+                    <li class="sidebar-item"><a href="../../getStarted/conclusion/conclusion.html">Conclusion</a></li>
+                </ul>
+            </div>
+            <div class="divider"></div>
+            <div class="sidebar-section">
+                <div class="sidebar-section-title">
+                    Components
+                </div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-item"><a href="../Alert/alert.html">Alert</a></li>
+                    <li class="sidebar-item"><a href="../Avatar/avatar.html">Avatar</a></li>
+                    <li class="sidebar-item"><a href="../Badge/badge.html">Badge</a></li>
+                    <li class="sidebar-item"><a href="../Button/button.html">Button</a></li>
+                    <li class="sidebar-item"><a href="../Card/card.html">Card</a></li>
+                    <li class="sidebar-item"><a href="../Image/image.html">Image</a></li>
+                    <li class="sidebar-item"><a href="../Input/input.html">Input</a></li>
+                    <li class="sidebar-item active"><a href="./list.html">List</a></li>
+                    <li class="sidebar-item"><a href="../Navigation/navigation.html">Navigation</a></li>
+                    <li class="sidebar-item"><a href="#">Toast</a></li>
+                </ul>
+            </div>
+        </aside>
+        <!-- SIDEBAR ENDS -->
+
+        <!-- DOC-CONTENT -->
+        <section class="doc-content">
+            <div class="content-box">
+                <div class="content-title">
+                    <h1>List</h1>
+                </div>
+                <div class="content-text">
+                    <p> 
+                        Lists are continuous, vertical indexes of text or images. They are composed of items containing primary and supplemental actions, which are represented by icons and text.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="content-box">
+                <div class="content-head">
+                    <h2>Unordered List</h2>
+                </div>
+                <div class="content-text">
+                    Unordered lists, have list items marked with bullets i.e small black circles(disc) by default.
+                </div>
+                <div class="example-box">
+                    <ul class="list list-disc">
+                        <li class="list-disc-item">List Item 1</li>
+                        <li class="list-disc-item">List Item 2</li>
+                        <li class="list-disc-item">List Item 3</li>
+                    </ul>
+                    <ul class="list list-circle">
+                        <li class="list-circle-item">List Item 1</li>
+                        <li class="list-circle-item">List Item 2</li>
+                        <li class="list-circle-item">List Item 3</li>
+                    </ul>
+                    <ul class="list list-square">
+                        <li class="list-square-item">List Item 1</li>
+                        <li class="list-square-item">List Item 2</li>
+                        <li class="list-square-item">List Item 3</li>
+                    </ul>
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28114%2C69%2C182%2C0.94%29&t=material&wt=none&l=text%2Fapache&width=691&ds=false&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=30px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cul%2520class%253D%2522list%2520list-disc%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-disc-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-disc-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-disc-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list%2520list-circle%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-circle-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-circle-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-circle-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list%2520list-square%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-square-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-square-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-square-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        style="height: 396px;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+            <div class="divider"></div>
+
+            <div class="content-box">
+                <div class="content-head">
+                    <h2>Ordered List</h2>
+                </div>
+                <div class="content-text">
+                    Ordered lists, have list items marked with numeric bullets i.e decimal numbers by default.
+                </div>
+                <div class="example-box">
+                    <ol class="list list-number">
+                        <li class="list-number-item">List Item 1</li>
+                        <li class="list-number-item">List Item 2</li>
+                        <li class="list-number-item">List Item 3</li>
+                    </ol>
+                    <ol class="list list-lower-roman">
+                        <li class="list-lower-roman-item">List Item 1</li>
+                        <li class="list-lower-roman-item">List Item 2</li>
+                        <li class="list-lower-roman-item">List Item 3</li>
+                    </ol>
+                    <ol class="list list-number" reversed>
+                        <li class="list-number-item">List Item 1</li>
+                        <li class="list-number-item">List Item 2</li>
+                        <li class="list-number-item">List Item 3</li>
+                    </ol>
+                    <ol class="list list-lower-alpha">
+                        <li class="list-lower-alpha-item">List Item 1</li>
+                        <li class="list-lower-alpha-item">List Item 2</li>
+                        <li class="list-lower-alpha-item">List Item 3</li>
+                    </ol>
+                    <ol class="list list-upper-roman">
+                        <li class="list-upper-roman-item">List Item 1</li>
+                        <li class="list-upper-roman-item">List Item 2</li>
+                        <li class="list-upper-roman-item">List Item 3</li>
+                    </ol>
+                    <ol class="list list-upper-alpha">
+                        <li class="list-upper-alpha-item">List Item 1</li>
+                        <li class="list-upper-alpha-item">List Item 2</li>
+                        <li class="list-upper-alpha-item">List Item 3</li>
+                    </ol>
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28114%2C69%2C182%2C0.94%29&t=material&wt=none&l=text%2Fapache&width=691&ds=false&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=30px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Col%2520class%253D%2522list%2520list-number%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-number-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-number-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-number-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-lower-roman%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-lower-roman-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-lower-roman-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-lower-roman-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-number%2522%2520reversed%253E%250A%2520%2520%253Cli%2520class%253D%2522list-number-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-number-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-number-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-lower-alpha%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-lower-alpha-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-lower-alpha-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-lower-alpha-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-upper-roman%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-roman-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-roman-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-roman-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-upper-alpha%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-alpha-item%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-alpha-item%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-upper-alpha-item%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%253C%252Fol%253E"
+                        style="height: 675px;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>   
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+
+            <div class="content-box">
+                <div class="content-head">
+                    <h2>Notification List</h2>
+                </div>
+                <div class="content-text">
+                    Notification lists, are the ones that are stacked one upon another.
+                </div>
+                <div class="example-box">
+                    <ul class="notification-list">
+                        <li class="notification-list-item"><i class="fas fa-envelope notification-icon"></i>New Message from Ammy</li>
+                        <li class="notification-list-item"><i class="fas fa-newspaper notification-icon"></i>News Update from India</li>
+                        <li class="notification-list-item"><i class="fas fa-tools notification-icon"></i>Service Notification from Aketes</li>
+                    </ul>
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28114%2C69%2C182%2C0.94%29&t=material&wt=none&l=text%2Fapache&width=691&ds=false&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=30px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cul%2520class%253D%2522notification-list%2522%253E%250A%2509%253Cli%2520class%253D%2522notification-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-envelope%2520notification-icon%2522%253E%253C%252Fi%253ENew%2520Message%2520from%2520Ammy%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522notification-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-newspaper%2520notification-icon%2522%253E%253C%252Fi%253ENews%2520Update%2520from%2520India%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522notification-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-tools%2520notification-icon%2522%253E%253C%252Fi%253EService%2520Notification%2520from%2520Aketes%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        style="height: 266px;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>   
+                </div>
+            </div>
+            <div class="divider"></div>
+
+            <div class="content-box">
+                <div class="content-head">
+                    <h2>Select List Group</h2>
+                </div>
+                <div class="content-text">
+                    Select List groups contains items with checkboxes. They are useful for refining the products search on an eCommerce website.
+                </div>
+                <div class="example-box">
+                    <div class="filter-list">
+                        <div class="list-title">
+                            Refine search
+                        </div>
+                        <div class="divider"></div>
+                        <div class="filter-title">
+                            Brand
+                        </div>
+                        <div class="checkbox">
+                            <label for="checkbox-1">
+                                <input id="checkbox-1" name="checkbox" type="checkbox" checked>
+                                Samsung
+                            </label>
+                            <label for="checkbox-2">
+                                <input id="checkbox-2" name="checkbox" type="checkbox">
+                                LG
+                            </label>
+                            <label for="checkbox-3">
+                                <input id="checkbox-3" name="checkbox" type="checkbox">
+                                RealMe
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28114%2C69%2C182%2C0.94%29&t=material&wt=none&l=text%2Fapache&width=691&ds=false&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=30px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522filter-list%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-title%2522%253E%250A%2520%2520%2520%2520%2520%2520Refine%2520search%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522divider%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522filter-title%2522%253E%250A%2520%2520%2520%2520%2520%2520Brand%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522checkbox-1%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%2520checked%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Samsung%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522checkbox-2%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520LG%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522checkbox-3%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520RealMe%250A%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="height: 545px;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>   
+                </div>
+            </div>
+
+
+            <div class="divider"></div>
+            <!-- SECTION-FOOTER -->
+            <footer class="section-footer">
+                <div class="prev-comp">
+                    <a href="../Input/input.html" class="footer-link">Input
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </a>
+                </div>
+                <div class="next-comp">
+                    <a href="../Navigation/navigation.html" class="footer-link">Navigation
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </a>
+                </div>
+            </footer>
+            <!-- SECTION-FOOTER ENDS -->
+        </section>
+        <!-- DOC-CONTENT ENDS -->
+    </main>
+    <!-- MAIN-CONTENT ENDS -->
+  </body>
+</html>
