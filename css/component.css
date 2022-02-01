@@ -38,6 +38,14 @@
   color: var(--primary-color);
 }
 
+.error-highlight {
+  color: var(--danger-color);
+}
+
+.success-highlight {
+  color: var(--success-color);
+}
+
 /* HEADING-BOX */
 .heading-box {
   margin: 2.5rem 0;
