@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Abhijeet Sinha">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- FONT-AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CUSTOM-CSS -->
+    <link rel="stylesheet" href="../../css/components.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="../../index.html" class="nav-title">NovaUI <span class="nav-subtitle">v1.0</span></a>
+      </div>
+      <ul class="nav-items">
+        <li class="nav-item">
+          <a href="https://github.com/Abhijeet43" target="_blank" class="nav-link"><i class="fab fa-github"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="https://linkedin.com/in/aasinha" target="_blank" class="nav-link"><i class="fab fa-linkedin"></i><a></li>
+      </ul>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+    <!-- MAIN-CONTENT -->
+    <main class="main-content">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="sidebar-section-title">
+                    Getting Started
+                </div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-item"><a href="../../getStarted/introduction/introduction.html">Introduction</a></li>
+                    <li class="sidebar-item"><a href="../../getStarted/colors/colors.html">Colors</a></li>
+                    <li class="sidebar-item"><a href="../../getStarted/typography/typography.html">Typography</a></li>
+                    <li class="sidebar-item"><a href="../../getStarted/conclusion/conclusion.html">Conclusion</a></li>
+                </ul>
+            </div>
+            <div class="divider"></div>
+            <div class="sidebar-section">
+                <div class="sidebar-section-title">
+                    Components
+                </div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-item"><a href="../Alert/alert.html">Alert</a></li>
+                    <li class="sidebar-item"><a href="../Avatar/avatar.html">Avatar</a></li>
+                    <li class="sidebar-item"><a href="../Badge/badge.html">Badge</a></li>
+                    <li class="sidebar-item"><a href="../Button/button.html">Button</a></li>
+                    <li class="sidebar-item"><a href="../Card/card.html">Card</a></li>
+                    <li class="sidebar-item"><a href="../Image/image.html">Image</a></li>
+                    <li class="sidebar-item"><a href="../Input/input.html">Input</a></li>
+                    <li class="sidebar-item"><a href="../List/list.html">List</a></li>
+                    <li class="sidebar-item"><a href="../Navigation/navigation.html">Navigation</a></li>
+                    <li class="sidebar-item active"><a href="../Modal/modal.html">Modal</a></li>
+                    <li class="sidebar-item"><a href="#">Toast</a></li>
+                </ul>
+            </div>
+        </aside>
+        <!-- SIDEBAR ENDS -->
+
+        <!-- DOC-CONTENT -->
+        <section class="doc-content">
+            <div class="content-box">
+                <div class="content-title">
+                    <h1>Modal</h1>
+                </div>
+                <div class="content-text">
+                    <p> 
+                        Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="content-box">
+                <div class="content-head">
+                    <h2>Simple Modal</h2>
+                </div>
+                <div class="content-text">
+                    A modal component consists of three parts A Modal Button, A Modal  and An Overlay. 
+                </div>
+                <div class="example-box">
+                    <div class="modal-open btn btn-primary">Open Modal</div>
+                    <div class="modal">
+                        <div class="modal-dismiss"><i class="fas fa-times"></i></div>
+                        <div class="modal-title-container">
+                            <h3 class="modal-title">Exclusive Offers</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p class="modal-text">White Shirt with straps now available</p>
+                        </div>
+                        <div class="modal-btns">
+                            <button class="btn btn-secondary">Go Back</button>
+                            <button class="btn btn-primary">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="modal-overlay"></div>
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28114%2C69%2C182%2C0.94%29&t=material&wt=none&l=text%2Fapache&width=691&ds=false&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=30px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522modal-open%2520btn%2520btn-primary%2522%253EOpen%2520Modal%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-dismiss%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-title-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522modal-title%2522%253EExclusive%2520Offers%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-text%2522%253EWhite%2520Shirt%2520with%2520straps%2520now%2520available%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253EGo%2520Back%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EShop%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-overlay%2522%253E%253C%252Fdiv%253E%250A"
+                        style="height: 415px;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <div class="content-text">JavaScript:</div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28114%2C69%2C182%2C0.94%29&t=material&wt=none&l=text%2Fapache&width=691&ds=false&dsyoff=37px&dsblur=68px&wc=true&wa=true&pv=30px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=const%2520modal%2520%253D%2520document.querySelector%28%2522.modal%2522%29%253B%250Aconst%2520modalOpenBtn%2520%253D%2520document.querySelector%28%2522.modal-open%2522%29%253B%250Aconst%2520modalDismissBtn%2520%253D%2520document.querySelector%28%2522.modal-dismiss%2522%29%253B%250Aconst%2520modalOverlay%2520%253D%2520document.querySelector%28%2522.modal-overlay%2522%29%253B%250A%250AmodalOpenBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520openModal%28%29%253B%250A%257D%29%253B%250A%250AmodalDismissBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520closeModal%28%29%253B%250A%257D%29%253B%250A%250Aconst%2520openModal%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520modal.classList.add%28%2522active%2522%29%253B%250A%2520%2520modalOverlay.classList.add%28%2522active%2522%29%253B%250A%257D%253B%250A%250Aconst%2520closeModal%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520modal.classList.remove%28%2522active%2522%29%253B%250A%2520%2520modalOverlay.classList.remove%28%2522active%2522%29%253B%250A%257D%253B"
+                        style="height: 526px;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            <!-- SECTION-FOOTER -->
+            <footer class="section-footer">
+                <div class="prev-comp">
+                    <a href="../Navigation/navigation.html" class="footer-link">Navigation
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </a>
+                </div>
+                <div class="next-comp">
+                    <a href="#" class="footer-link">
+                        <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </a>
+                </div>
+            </footer>
+            <!-- SECTION-FOOTER ENDS -->
+        </section>
+        <!-- DOC-CONTENT ENDS -->
+    </main>
+    <!-- MAIN-CONTENT ENDS -->
+    <script src="./modal.js"></script>
+  </body>
+</html>
