@@ -1,0 +1,36 @@
+.toast {
+  position: fixed;
+  top: 10%;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--toast-background);
+  color: var(--toast-color);
+  max-width: 400px;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  transform: scale(0);
+  transition: transform 300ms ease-in-out;
+}
+
+.toast.active {
+  transform: scale(1);
+}
+
+.toast-label {
+  font-size: 1.4rem;
+  padding: 0.5em;
+  font-weight: 500;
+}
+
+.toast-actions {
+  padding: 0.7rem;
+  display: flex;
+}
+
+.toast-dismiss i {
+  font-size: 1.4rem;
+  color: rgb(3, 88, 3);
+}
