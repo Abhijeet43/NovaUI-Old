@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(110, 235, 110);
-  color: rgb(3, 88, 3);
+  background-color: var(--toast-background);
+  color: var(--toast-color);
   max-width: 400px;
   width: 100%;
   padding: 0.5rem;

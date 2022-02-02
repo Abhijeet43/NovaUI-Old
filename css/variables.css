@@ -18,4 +18,6 @@
     rgb(0 0 0 / 30%) 0px 1px 3px -1px;
   --modal-background: rgb(203, 92, 209);
   --overlay-background: rgba(128, 128, 128, 0.322);
+  --toast-color: rgb(3, 88, 3);
+  --toast-background: rgb(110, 235, 110);
 }
